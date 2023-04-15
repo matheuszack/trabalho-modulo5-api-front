@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.login_box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: auto;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+
+
+
+
+
+
+/* LOGO */
+.brand_logo_container {
+    position: relative;
+    height: 170px;
+    width: 170px;
+    top: 50px;
+    border-radius: 50%;
+    background: linear-gradient(19deg, #023535 0%, #0FC2C0 100%);
+    padding: 10px;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* ################################################################### */
+
+/* Todos os formulários */
+.login_todos_os_formularios {
+    min-width: 250px;
+    max-width: 400px;
+    border-radius: 24px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.login_h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.login_todos_os_formularios select[type="text"],
+.login_todos_os_formularios input[type="number"],
+.login_todos_os_formularios input[type="text"],
+.login_todos_os_formularios input[type="date"],
+.login_todos_os_formularios input[type="password"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login_box input,
+.login_box select {
+    outline: none;
+}
+
+.login_links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.login_links>a:first-of-type {
+    margin-right: 5px;
+}
+
+.login_links>a {
+    background-color: #E0E0E0;
+    border-radius: 24px;
+    font-weight: 400;
+    color: black;
+    line-height: 12px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    transition: 0.25s;
+}
+
+.login_links>a:hover {
+    opacity: 0.6;
+}
+
+.login_todos_os_formularios input[type="submit"] {
+    background-color: #E0E0E0;
+    background-image: linear-gradient(19deg, #0FC2C0 0%, #023535 100%);
+    width: 100%;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Raleway', sans-seriff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+
+.login_todos_os_formularios select[type="text"] {
+    background-color: #E0E0E0;
+    width: 100%;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Raleway', sans-seriff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login_todos_os_formularios select[type="text"]:hover {
+    opacity: 0.8;
+}
+
+.login_todos_os_formularios input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.login_todos_os_formularios select[type="text"]:focus,
+.login_todos_os_formularios input[type="text"]:focus,
+.login_todos_os_formularios input[type="date"]:focus,
+.login_todos_os_formularios input[type="number"]:focus,
+.login_todos_os_formularios input[type="password"]:focus {
+    border: 2px #0FC2C0 solid;
+}
+
+.login_todos_os_formularios select[type="text"],
+.login_todos_os_formularios input[type="text"],
+.login_todos_os_formularios input[type="number"],
+.login_todos_os_formularios input[type="date"],
+.login_todos_os_formularios input[type="password"] {
+    width: 100%;
+    border: none;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-seriff;
+    background-color: gainsboro;
+    padding: 15px;
+}
+
+.login_links>input:first-of-type {
+    margin-right: 5px;
+}
+
+.login_links>input {
+    background-color: #E0E0E0;
+    border-radius: 24px;
+    font-weight: 400;
+    color: black;
+    line-height: 12px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    transition: 0.25s;
+}
+
+.login_links>input:hover {
+    opacity: 0.6;
+}
+
+/* ################################################################### */
+
+/* Formulário: elementos do formulário 'ACESSO' */
+#login_form_acesso {
+    display: block;
+}
+
+/* Formulário: elemento botão 'VOLTAR' */
+#login_botao_voltar {
+    display: none;
+}
+
+/* Formulário: elementos do formulário 'REDEFINIR SENHA' */
+#login_form_redefinir_senha {
+    display: none;
+}
+
+/* Formulário: elementos do formulário 'CADASTRE-SE' */
+#login_form_cadastre_se {
+    display: none;
+}
+
+
+.login_option {
+    color: rgb(39, 33, 33);
+
+}
+
+.section {
+    color: rgb(39, 33, 33);
+}

@@ -1,0 +1,42 @@
+.Funcionalidades,
+.nao_usar_essa_div1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.funcionalidades_bloco_do_card {
+  background-color: #faf9f9;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.funcionalidades_bloco_do_card:hover {
+  transform: scale(1.1);
+}
+
+.funcionalidades_titulo {
+  background-color: #36D7B7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.funcionalidades_titulo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.funcionalidades_descricao {
+  font-size: 16px;
+  margin-top: 10px;
+  color: black;
+}

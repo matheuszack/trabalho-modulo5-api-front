@@ -1,0 +1,37 @@
+.sobre_bloco_do_card2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_bloco_do_card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 50px;
+    height: auto;
+    width: 80%
+}
+
+
+
+.nao_usar_essa_div {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_titulo,
+.sobre_descricao {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre_descricao {
+    color: rgb(77, 60, 60);
+}

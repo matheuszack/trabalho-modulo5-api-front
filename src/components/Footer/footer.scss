@@ -1,0 +1,30 @@
+.footer_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer_footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-by_footer {
+  font-weight: bold;
+  color: #c7c3c3;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_footer {
+    margin-top: 100px;
+    padding: 30px;
+  }
+
+  .footer_footer p {
+    font-size: 16px;
+  }
+}
